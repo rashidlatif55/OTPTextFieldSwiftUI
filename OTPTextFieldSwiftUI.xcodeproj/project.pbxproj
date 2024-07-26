@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98F329E02C5384D6007444C6 /* OTPTextFieldSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F329DF2C5384D6007444C6 /* OTPTextFieldSwiftUIApp.swift */; };
+		98F329E22C5384D6007444C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F329E12C5384D6007444C6 /* ContentView.swift */; };
+		98F329E42C5384D7007444C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F329E32C5384D7007444C6 /* Assets.xcassets */; };
+		98F329E72C5384D7007444C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F329E62C5384D7007444C6 /* Preview Assets.xcassets */; };
+		98F329E92C5384D7007444C6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F329E82C5384D7007444C6 /* Persistence.swift */; };
+		98F329EC2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98F329EA2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodeld */; };
+		98F329F62C5384D8007444C6 /* OTPTextFieldSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F329F52C5384D8007444C6 /* OTPTextFieldSwiftUITests.swift */; };
+		98F32A002C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F329FF2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift */; };
+		98F32A022C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A012C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98F329F22C5384D8007444C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F329D42C5384D6007444C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F329DB2C5384D6007444C6;
+			remoteInfo = OTPTextFieldSwiftUI;
+		};
+		98F329FC2C5384D8007444C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F329D42C5384D6007444C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F329DB2C5384D6007444C6;
+			remoteInfo = OTPTextFieldSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98F329DC2C5384D6007444C6 /* OTPTextFieldSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPTextFieldSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F329DF2C5384D6007444C6 /* OTPTextFieldSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldSwiftUIApp.swift; sourceTree = "<group>"; };
+		98F329E12C5384D6007444C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98F329E32C5384D7007444C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98F329E62C5384D7007444C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98F329E82C5384D7007444C6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		98F329EB2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OTPTextFieldSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		98F329F12C5384D8007444C6 /* OTPTextFieldSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPTextFieldSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F329F52C5384D8007444C6 /* OTPTextFieldSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldSwiftUITests.swift; sourceTree = "<group>"; };
+		98F329FB2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPTextFieldSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F329FF2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldSwiftUIUITests.swift; sourceTree = "<group>"; };
+		98F32A012C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F329D92C5384D6007444C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F329EE2C5384D8007444C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F329F82C5384D8007444C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98F329D32C5384D6007444C6 = {
+			isa = PBXGroup;
+			children = (
+				98F329DE2C5384D6007444C6 /* OTPTextFieldSwiftUI */,
+				98F329F42C5384D8007444C6 /* OTPTextFieldSwiftUITests */,
+				98F329FE2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests */,
+				98F329DD2C5384D6007444C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F329DD2C5384D6007444C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F329DC2C5384D6007444C6 /* OTPTextFieldSwiftUI.app */,
+				98F329F12C5384D8007444C6 /* OTPTextFieldSwiftUITests.xctest */,
+				98F329FB2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F329DE2C5384D6007444C6 /* OTPTextFieldSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				98F329DF2C5384D6007444C6 /* OTPTextFieldSwiftUIApp.swift */,
+				98F329E12C5384D6007444C6 /* ContentView.swift */,
+				98F329E32C5384D7007444C6 /* Assets.xcassets */,
+				98F329E82C5384D7007444C6 /* Persistence.swift */,
+				98F329EA2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodeld */,
+				98F329E52C5384D7007444C6 /* Preview Content */,
+			);
+			path = OTPTextFieldSwiftUI;
+			sourceTree = "<group>";
+		};
+		98F329E52C5384D7007444C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98F329E62C5384D7007444C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98F329F42C5384D8007444C6 /* OTPTextFieldSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98F329F52C5384D8007444C6 /* OTPTextFieldSwiftUITests.swift */,
+			);
+			path = OTPTextFieldSwiftUITests;
+			sourceTree = "<group>";
+		};
+		98F329FE2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98F329FF2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift */,
+				98F32A012C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = OTPTextFieldSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F329DB2C5384D6007444C6 /* OTPTextFieldSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F32A052C5384D8007444C6 /* Build configuration list for PBXNativeTarget "OTPTextFieldSwiftUI" */;
+			buildPhases = (
+				98F329D82C5384D6007444C6 /* Sources */,
+				98F329D92C5384D6007444C6 /* Frameworks */,
+				98F329DA2C5384D6007444C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPTextFieldSwiftUI;
+			productName = OTPTextFieldSwiftUI;
+			productReference = 98F329DC2C5384D6007444C6 /* OTPTextFieldSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98F329F02C5384D8007444C6 /* OTPTextFieldSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F32A082C5384D8007444C6 /* Build configuration list for PBXNativeTarget "OTPTextFieldSwiftUITests" */;
+			buildPhases = (
+				98F329ED2C5384D8007444C6 /* Sources */,
+				98F329EE2C5384D8007444C6 /* Frameworks */,
+				98F329EF2C5384D8007444C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F329F32C5384D8007444C6 /* PBXTargetDependency */,
+			);
+			name = OTPTextFieldSwiftUITests;
+			productName = OTPTextFieldSwiftUITests;
+			productReference = 98F329F12C5384D8007444C6 /* OTPTextFieldSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98F329FA2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F32A0B2C5384D8007444C6 /* Build configuration list for PBXNativeTarget "OTPTextFieldSwiftUIUITests" */;
+			buildPhases = (
+				98F329F72C5384D8007444C6 /* Sources */,
+				98F329F82C5384D8007444C6 /* Frameworks */,
+				98F329F92C5384D8007444C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F329FD2C5384D8007444C6 /* PBXTargetDependency */,
+			);
+			name = OTPTextFieldSwiftUIUITests;
+			productName = OTPTextFieldSwiftUIUITests;
+			productReference = 98F329FB2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F329D42C5384D6007444C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					98F329DB2C5384D6007444C6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					98F329F02C5384D8007444C6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 98F329DB2C5384D6007444C6;
+					};
+					98F329FA2C5384D8007444C6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 98F329DB2C5384D6007444C6;
+					};
+				};
+			};
+			buildConfigurationList = 98F329D72C5384D6007444C6 /* Build configuration list for PBXProject "OTPTextFieldSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98F329D32C5384D6007444C6;
+			productRefGroup = 98F329DD2C5384D6007444C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F329DB2C5384D6007444C6 /* OTPTextFieldSwiftUI */,
+				98F329F02C5384D8007444C6 /* OTPTextFieldSwiftUITests */,
+				98F329FA2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F329DA2C5384D6007444C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F329E72C5384D7007444C6 /* Preview Assets.xcassets in Resources */,
+				98F329E42C5384D7007444C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F329EF2C5384D8007444C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F329F92C5384D8007444C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F329D82C5384D6007444C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F329E92C5384D7007444C6 /* Persistence.swift in Sources */,
+				98F329E22C5384D6007444C6 /* ContentView.swift in Sources */,
+				98F329EC2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodeld in Sources */,
+				98F329E02C5384D6007444C6 /* OTPTextFieldSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F329ED2C5384D8007444C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F329F62C5384D8007444C6 /* OTPTextFieldSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F329F72C5384D8007444C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F32A022C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift in Sources */,
+				98F32A002C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98F329F32C5384D8007444C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F329DB2C5384D6007444C6 /* OTPTextFieldSwiftUI */;
+			targetProxy = 98F329F22C5384D8007444C6 /* PBXContainerItemProxy */;
+		};
+		98F329FD2C5384D8007444C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F329DB2C5384D6007444C6 /* OTPTextFieldSwiftUI */;
+			targetProxy = 98F329FC2C5384D8007444C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98F32A032C5384D8007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98F32A042C5384D8007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F32A062C5384D8007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTPTextFieldSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OTPTextFieldSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F32A072C5384D8007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTPTextFieldSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OTPTextFieldSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98F32A092C5384D8007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OTPTextFieldSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPTextFieldSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTPTextFieldSwiftUI";
+			};
+			name = Debug;
+		};
+		98F32A0A2C5384D8007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OTPTextFieldSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPTextFieldSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTPTextFieldSwiftUI";
+			};
+			name = Release;
+		};
+		98F32A0C2C5384D8007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OTPTextFieldSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPTextFieldSwiftUI;
+			};
+			name = Debug;
+		};
+		98F32A0D2C5384D8007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OTPTextFieldSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPTextFieldSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F329D72C5384D6007444C6 /* Build configuration list for PBXProject "OTPTextFieldSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A032C5384D8007444C6 /* Debug */,
+				98F32A042C5384D8007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F32A052C5384D8007444C6 /* Build configuration list for PBXNativeTarget "OTPTextFieldSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A062C5384D8007444C6 /* Debug */,
+				98F32A072C5384D8007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F32A082C5384D8007444C6 /* Build configuration list for PBXNativeTarget "OTPTextFieldSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A092C5384D8007444C6 /* Debug */,
+				98F32A0A2C5384D8007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F32A0B2C5384D8007444C6 /* Build configuration list for PBXNativeTarget "OTPTextFieldSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A0C2C5384D8007444C6 /* Debug */,
+				98F32A0D2C5384D8007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98F329EA2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98F329EB2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodel */,
+			);
+			currentVersion = 98F329EB2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodel */;
+			path = OTPTextFieldSwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98F329D42C5384D6007444C6 /* Project object */;
+}
