@@ -16,6 +16,7 @@
 		98F329F62C5384D8007444C6 /* OTPTextFieldSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F329F52C5384D8007444C6 /* OTPTextFieldSwiftUITests.swift */; };
 		98F32A002C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F329FF2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift */; };
 		98F32A022C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A012C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift */; };
+		98F32A0F2C53856B007444C6 /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A0E2C53856B007444C6 /* OTPTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		98F329FB2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPTextFieldSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F329FF2C5384D8007444C6 /* OTPTextFieldSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldSwiftUIUITests.swift; sourceTree = "<group>"; };
 		98F32A012C5384D8007444C6 /* OTPTextFieldSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98F32A0E2C53856B007444C6 /* OTPTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				98F329E82C5384D7007444C6 /* Persistence.swift */,
 				98F329EA2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodeld */,
 				98F329E52C5384D7007444C6 /* Preview Content */,
+				98F32A0E2C53856B007444C6 /* OTPTextFieldView.swift */,
 			);
 			path = OTPTextFieldSwiftUI;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F32A0F2C53856B007444C6 /* OTPTextFieldView.swift in Sources */,
 				98F329E92C5384D7007444C6 /* Persistence.swift in Sources */,
 				98F329E22C5384D6007444C6 /* ContentView.swift in Sources */,
 				98F329EC2C5384D7007444C6 /* OTPTextFieldSwiftUI.xcdatamodeld in Sources */,
